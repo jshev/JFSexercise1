@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Add Employee</h1>
+<form action="AddServlet" method="get">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name">
+    <br>
+    <label for="email">Email</label>
+    <input type="text" name="email" id="email">
+    <br>
+    <p style="display:inline;">Gender</p>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label>
+    <br>
+    <label for="country">Country</label>
+    <input type="text" name="country" id="country">
+    <br>
+    <input type="submit" value="Submit">
+</form>
+<form action="ViewServlet" method="get">
+    <input type="submit" value="View List">
+</form>
+</body>
+</html>
